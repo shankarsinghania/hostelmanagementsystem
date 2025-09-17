@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visitor</title>
+    <style>
+        body{
+            height: 100vh;
+            background: linear-gradient(-45deg, #2c001e,#6e0a1e,#d84315,#ff9800,#ffeb3b);
+             background-repeat: no-repeat;
+             background-size: cover;
+
+        }
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+        .first {
+            border: 2px solid black;
+        }
+
+        .info {
+            border: px solid white;
+            height: 400px;
+            width: 400px;
+            background-color:  rgb(94, 145, 145);
+            
+        }
+        .detail {
+            padding-left: 70px;
+            padding-top: 30px;
+            margin-top: 10px;
+        }
+        label {
+            font-size: 15px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        input {
+            margin-left: 20px;
+            padding-left: 15px;
+            width: 140px;
+            height: 20px;
+        }
+        #i1 {
+            margin-left: 38px;
+        }
+        #i3 {
+            margin-left: 22px;
+        }
+        #i4 {
+            margin-left: 15px;
+    
+        }
+        .heading {
+            display: flex;
+        }
+        .main {
+            display: flex;
+            gap: 5px;
+            margin-left: 300px;
+        }
+        .sname {
+            border: 0px solid black;
+            height: 400px;
+            width: 397px;
+            background-color: rgb(94, 145, 145);
+        }
+        .second {
+            margin-top: 35px;
+            margin-left: 35px;
+
+        }
+        .search {
+            font-size: 15px;
+            font-weight: bold;
+            width: 75px;
+            margin-top: 25px;
+            margin-left: 55px;
+            
+        }
+        .room {
+            margin-top: 35px;
+            margin-left: 35px;
+        }
+        .no {
+            margin-left: 50px;
+        }
+        .add {
+            font-size: 16px;
+            font-weight: bold;
+            margin-left: 55px;
+            margin-top: 55px;
+            width: 100px;
+            height: 25px;
+        }
+        h3 {
+            border: 0px solid black;
+            width: 792px;
+            text-align: center;
+            background-color: rgb(181, 150, 150);
+            color: white;
+            padding: 5px;
+            margin-left: 300px;
+            margin-top: 115px;
+        }
+        #btn {
+            margin-left: 120px;
+            margin-top: 90px;
+            width: 180px;
+            font-size: 15px;
+            background-color: green;
+            color: white;
+        }
+        .save {
+            font-size: 16px;
+            font-weight: bold;
+            margin-left: 175px;
+            margin-top: 85px;
+            width: 80px;
+            height: 28px;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h3>Visitor's Information</h3>
+   
+    <div class="main">
+        <div class="info">
+            <div class="detail">
+                <label>Name</label>
+                <input type="text" id="i1">
+            </div>
+            <div class="detail">
+                <label>Contact</label>
+                <input type="number" id="i2">
+            </div>
+            <div class="detail">
+                <label>Reason</label>
+                <input type="text" id="i3">
+            </div>
+            <div class="detail">
+                <label>Address</label>
+                <input type="text" id="i4">
+            </div>
+            <button type="button" class="save">Save</button>
+        </div>
+       
+        <div class="sname">
+            <div class="second">
+                <label>Student Name</label>
+                <input type="text"> <br>
+                <button type="button" class="search">Search</button>
+                <button type="reset" class="search">Reset</button>
+            </div>
+            <div class="room">
+                <label>Room No.</label>
+                <input type="number" class="no">
+            </div>
+            <button type="button" class="add">Add Visitor</button>
+            <button type="button" class="add"><a href="login.html">Exit</a></button>
+            <br>
+            <button type="button" id="btn">Successfull...!</button>
+    </div>
+    </div>
+</body>
+</html>

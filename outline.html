@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In And Outline</title>
+    <style>
+        body{
+            height: 100vh;
+             background: linear-gradient(-45deg, #2c001e,#6e0a1e,#d84315,#ff9800,#ffeb3b);
+             background-repeat: no-repeat;
+             background-size: cover;
+        }
+        .main {
+            height: 500px;
+            width: 600px;
+            border: 0px solid black;
+            background-color: gray;
+            margin-left: 350px;
+            margin-top: 80px;
+            border-radius: 10px;
+        }
+        .child{
+            width: 250px;
+            background-color: rgba(42, 240, 7, 0.919);
+            margin-top: -17px;
+            font-weight: bold;
+        }
+        .out {
+            width: 250px;
+            background-color: rgba(42, 240, 7, 0.919);
+            margin-bottom: 33px;
+            margin-top: 60px;
+            
+
+        }
+        .data {
+            padding-top: 20px;
+            padding-left: 60px;
+        }
+        input{
+            margin-left: 30px;
+        }
+        label{
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .btn {
+            margin-left: 300px;
+            font-size: 15px;
+        }
+        .inttime {
+            padding-top: 20px;
+            padding-left: 60px;
+        }
+        .id {
+            margin-left: 75px;
+            margin-bottom: -15px;
+        }
+        .btnn {
+            margin-left: 350px;
+            font-size: 15px;
+        }
+        .enter{
+            margin-left: 25px;
+        }
+        #before {
+            margin-left: 210px;
+            margin-top: 25px;
+            width: 130px;
+            font-size: 15px;
+        }
+        #save {
+            margin-left: 410px;
+            font-size: 15px;
+        }
+        #saves {
+            margin-left: 13px;
+            font-size: 15px;
+            width: 50px;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="child">
+            <h3>------------Outtime-------------</h3>
+        </div>
+        <div class="data">
+            <label>Enter ID</label>
+            <input type="text" class="enter"><br>
+            <button type="button" class="btn">Save</button><br>
+            <label>Purpose</label>
+            <input type="text">
+
+        </div>
+        <div class="out">
+            <h3>------------Inttime-------------</h3>
+        </div>
+        <div class="inttime">
+            <label>Enter ID</label>
+            <input type="text" class="id"><br>
+            <button type="button" class="btnn">Search Outline</button><br>
+            <label>Outtime Entry</label>
+            <input type="text">
+        </div>
+        <button type="button" id="before">Before Time</button><br>
+        <button type="button" id="save">Save</button>
+        <button type="button" id="saves"><a href="login.html">Exit</a></button>
+    </div>
+</body>
+</html>

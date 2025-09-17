@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            height: 100vh;
+            background: linear-gradient(-45deg, #2c001e,#6e0a1e,#d84315,#ff9800,#ffeb3b);
+             background-repeat: no-repeat;
+             background-size: cover;
+        
+        }
+        .cont {
+            display: flex;
+            gap: 10px;
+          
+        }
+        .main{
+            border: 0px solid black;
+            height: 400px;
+            width: 300px;
+            background-color: rgb(158, 152, 131);
+            margin-left: 300px;
+            margin-top: 120px;
+            
+        }
+        .child{
+            padding-top: 60px;
+            width: 100px;
+            margin-left: 90px;
+        }
+        .btn {
+            font-size: 17px;
+            font-weight: bold;
+        }
+        .room {
+            height: 400px;
+            width: 500px;
+            border: 0px solid black;
+            background-color: rgb(199, 169, 169);
+            margin-top: 120px;
+        }
+        .cdiv {
+            font-size: 18px;
+            font-weight: bold;
+            padding-left: 20px;
+            padding-top: 20px;
+        }
+        .btnn {
+            margin-left: 30px;
+            width: 70px;
+            height: 30px;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        .stud {
+            text-align: center;
+            background-color: yellowgreen;
+            font-size: 17px;
+        }
+        .details {
+            font-size: 17px;
+            font-weight: bold;
+            color: white;
+            background-color: rgb(255, 167, 2);
+            margin-top: -20px;
+        }
+        .dts {
+            padding-left: 50px;
+        }
+        .data {
+            font-size: 15px;
+            font-weight: bold;
+            margin-top: 28px;
+            
+        }
+        .da{
+            padding-left: 55px;
+        }
+        .exit {
+            font-size: 17px;
+            font-weight: bold;
+            margin-left: 110px;
+            margin-top: 90px;
+            width: 60px;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cont">
+        <div class="main">
+
+            <div class="child">
+                <button type="button" class="btn">Information Of All Students</button>
+            </div>
+
+            <div class="child">
+                <button type="button" class="btn">Room Info</button>
+            </div>
+            <button type="button" class="exit"><a href="login.html">Exit</a></button>
+
+        </div>
+
+        <div class="room">
+            <div class="cdiv">
+                <label class="">Enter Room No.</label>
+                <input type="number">
+                <button type="button" class="btnn">Search</button>
+            </div>
+
+            <div class="stud">
+                <h3>Information Of Students</h3>
+            </div>
+
+            <div class="details">
+                <label class="dts">Bed No.</label>
+                <label class="dts">Name</label>
+                <label class="dts">Contact</label>
+                <label class="dts">Workplace</label>
+            </div>
+
+            <div class="data">
+                <label class="da">B2</label>
+                <label class="da">xyz abc</label>
+                <label class="da">1234567890</label>
+                <label class="da">mgm's jnec</label>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
